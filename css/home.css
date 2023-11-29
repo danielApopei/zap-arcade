@@ -1,0 +1,38 @@
+.game-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 540px) {
+    .game-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .game-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .game-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.game-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    aspect-ratio: 16/10;
+    padding: 1rem;
+}
+
+.game-link:hover {
+    border: 5px solid var(--THEMECOLOR);
+    background-color: rgba(50, 205, 50, 0.115);
+}
