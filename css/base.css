@@ -67,7 +67,7 @@ nav {
     padding: 1rem;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 1000px) {
     .game-area {
         margin: 2rem;
         width: calc(100% - 4rem);
@@ -84,6 +84,7 @@ form {
     margin-top: 1rem;
 }
 
+.game-button,
 form button {
     border: none;
     padding: 1rem;

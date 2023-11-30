@@ -1,0 +1,39 @@
+#random-color-area,
+#guess-color-area {
+    border: 4px solid black;
+    min-height: 10rem;
+    margin: 1rem;
+    aspect-ratio: 1;
+}
+
+#guess-color-area {
+
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+    form {
+        flex-direction: row;
+    }
+
+    .colors {
+        flex-direction: row;
+    }
+}
+
+#next-button {
+    display: none;
+}
