@@ -30,9 +30,12 @@
     border: 5px solid black;
     aspect-ratio: 16/10;
     padding: 1rem;
+    text-decoration: none;
+    color: black;
 }
 
 .game-link:hover {
-    border: 5px solid var(--THEMECOLOR);
-    background-color: rgba(50, 205, 50, 0.115);
+    border: 5px solid rgb(var(--THEMECOLOR));
+    background-color: rgba(var(--THEMECOLOR), 0.2);
+    color: rgb(var(--THEMECOLOR));
 }
