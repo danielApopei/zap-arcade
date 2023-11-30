@@ -25,6 +25,7 @@
 
 .game-link {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 5px solid black;

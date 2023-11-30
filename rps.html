@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zap Arcade</title>
     <link rel="stylesheet" href="./css/base.css">
+    <script src="./js/rps.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,14 @@
     <main>
         <h1>Rock, Paper, Scissors</h1>
         <hr>
-
+        <div class="game-area">
+            <p>Hello! Pick a weapon (rock, paper or scissors):</p>
+            <form action="">
+                <input type="text" class="text-input" id="choice-input">
+                <button type="submit" class="game-button">Send</button>
+            </form>
+            <div class="text-output" id="text-output"></div>
+        </div>
     </main>
 </body>
 
