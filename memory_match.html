@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Color - Zap Arcade</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/memory_match.css">
+    <script src="./js/memory_match.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" class="back-button"> &leftarrow; Back</a>
+    </nav>
+    <main>
+        <h1>Memory Match</h1>
+        <hr>
+        <div class="game-area">
+            <div id="game-difficulty-panel">
+                <form action="">
+                    <p>Choose a map size:</p>
+                    <p>Rows</p>
+                    <input type="number" class="text-input" id="rows">
+                    <p>Columns</p>
+                    <input type="number" class="text-input" id="columns">
+                    <button type="submit" class="game-button" id="play-button">Play</button>
+                    <div id="output"></div>
+                </form>
+                <div class="text-output" id="difficulty-output"></div>
+            </div>
+            <div id="game-panel">
+                <div id="square-grid"></div>
+                <div id="you-win"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
