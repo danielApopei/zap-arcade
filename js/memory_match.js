@@ -114,5 +114,4 @@ function startGame() {
             createBoard(gamePanel, rows, cols);
         }
     });
-
 }

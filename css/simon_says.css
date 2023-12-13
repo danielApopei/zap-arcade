@@ -1,0 +1,57 @@
+.game-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#square-grid {
+    border: 1px solid black;
+    width: 100%;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+@media screen and (min-width: 500px) {
+    #square-grid {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #square-grid {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #square-grid {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #square-grid {
+        width: 20%;
+    }
+}
+
+#green-square {
+    background-color: limegreen;
+}
+
+#red-square {
+    background-color: red;
+}
+
+#yellow-square {
+    background-color: yellow;
+}
+
+#blue-square {
+    background-color: blue;
+}
