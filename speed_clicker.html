@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Clicker - Zap Arcade</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/speed_clicker.css">
+    <script src="./js/speed_clicker.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" class="back-button"> &leftarrow; Back</a>
+    </nav>
+    <main>
+        <h1>Speed Clicker</h1>
+        <hr>
+        <div class="game-area">
+            <div id="time-panel">
+                <select id="time-select" class="select" name="time">
+                    <option value="15">15s</option>
+                    <option value="30">30s</option>
+                    <option value="60">60s</option>
+                </select>
+                <button class="game-button" id="play-button">Play</button>
+                <div class="game-button" id="reset-progress">Reset Progress</div>
+                <div id="rp-output"></div>
+            </div>
+            <div id="click-area"></div>
+            <div id="count-text">302</div>
+            <div id="timer-text">45s</div>
+        </div>
+    </main>
+</body>
+
+</html>
