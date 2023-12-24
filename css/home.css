@@ -33,10 +33,39 @@
     padding: 1rem;
     text-decoration: none;
     color: black;
+    background-size: cover;
 }
 
 .game-link:hover {
     border: 5px solid rgb(var(--THEMECOLOR));
     background-color: rgba(var(--THEMECOLOR), 0.2);
     color: rgb(var(--THEMECOLOR));
+}
+
+.game-link#rps {
+    background-image: url(../img/home-rps.png);
+}
+
+.game-link#gtc {
+    background-image: url(../img/home-gtc.png);
+}
+
+.game-link#memory-match {
+    background-image: url(../img/home-memory-match.png);
+}
+
+.game-link#simon-says {
+    background-image: url(../img/home-simon-says.png);
+}
+
+.game-link#minesweeper {
+    background-image: url(../img/home-minesweeper.png);
+}
+
+.game-link#dog-breed {
+    background-image: url(../img/home-dog-breed.png);
+}
+
+.game-link#speed-clicker {
+    background-image: url(../img/home-speed-clicker.png);
 }
